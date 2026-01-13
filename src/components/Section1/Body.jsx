@@ -7,7 +7,7 @@ const Body = () => {
   const [display, setDisplay] = useState("0");
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-purple-500 min-h-screen flex items-center justify-center">
+    <div className="bg-blue-700 min-h-screen flex items-center justify-center">
        <div className="bg-black w-full max-w-sm p-4 rounded-lg shadow-xl">
           <Upper display={display} />
           <Lower display={display} setDisplay={setDisplay} />
